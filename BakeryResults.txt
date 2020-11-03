@@ -1,0 +1,11 @@
+I ran the Kmeans clustering algorithm with k = 8. (See the cluster centroid result table csv file)
+
+The most frequently purchased item seemed to be the Gongolais_Cookie. 
+
+The fifth cluster had the most people shopping on the weekend while the fourth cluster had the fewest.
+
+Coffee_Eclair and Lemon_Cake were found in all 8 clusters. 
+
+I would recommend cross-selling the Gongolais_Cookie with the Coffee_Eclair because these 2 products had the highest probabilities.
+
+ 

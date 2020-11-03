@@ -1,0 +1,149 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 4 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     bakery-binary
+Instances:    1000
+Attributes:   51
+              Chocolate_Cake
+              Lemon_Cake
+              Layer_Cake
+              Opera_Cake
+              Strawberry_Cake
+              Truffle_Cake
+              Chocolate_Eclair
+              Coffee_Eclair
+              Vanilla_Eclair
+              Napoleon_Cake
+              Almond_Tart
+              Apple_Pie
+              Apple_Tart
+              Apricot_Tart
+              Berry_Tart
+              Blackberry_Tart
+              Blueberry_Tart
+              Chocolate_Tart
+              Cherry_Tart
+              Lemon_Tart
+              Pecan_Tart
+              Ganache_Cookie
+              Gongolais_Cookie
+              Raspberry_Cookie
+              Lemon_Cookie
+              Chocolate_Meringue
+              Vanilla_Meringue
+              Marzipan_Cookie
+              Tuile_Cookie
+              Walnut_Cookie
+              Almond_Croissant
+              Apple_Croissant
+              Apricot_Croissant
+              Cheese_Croissant
+              Chocolate_Croissant
+              Apricot_Danish
+              Apple_Danish
+              Almond_Twist
+              Almond_BearClaw
+              Blueberry_Danish
+              Lemon_Lemonade
+              Raspberry_Lemonade
+              Orange_Juice
+              GreenTea
+              BottledWater
+              Hot_Coffee
+              Chocolate_Coffee
+              Vanilla_Frappuccino
+              Cherry_Soda
+              Single_Espresso
+              Weekend
+Test mode:    evaluate on training data
+
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 5
+Within cluster sum of squared errors: 3144.6373670839985
+
+Initial starting points (random):
+
+Cluster 0: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0
+Cluster 1: 0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Cluster 2: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Cluster 3: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                   Cluster#
+Attribute              Full Data          0          1          2          3
+                        (1000.0)     (38.0)    (177.0)     (74.0)    (711.0)
+============================================================================
+Chocolate_Cake             0.084          0     0.0282     0.0676     0.1041
+Lemon_Cake                 0.085     0.0263     0.0395     0.1081      0.097
+Layer_Cake                 0.072          0     0.0282     0.0405       0.09
+Opera_Cake                 0.078          0     0.0395     0.0405     0.0956
+Strawberry_Cake            0.091     0.0263     0.0395     0.0676     0.1097
+Truffle_Cake               0.103     0.0263     0.5141     0.0541     0.0098
+Chocolate_Eclair           0.034          0     0.0339     0.0405     0.0352
+Coffee_Eclair              0.093          0     0.0508     0.0135     0.1167
+Vanilla_Eclair             0.037     0.0263     0.0565      0.027     0.0338
+Napoleon_Cake               0.09     0.0789     0.0395     0.0135     0.1111
+Almond_Tart                0.041          0     0.0508     0.0541     0.0394
+Apple_Pie                  0.068          0     0.0113     0.0541     0.0872
+Apple_Tart                 0.079          0     0.2712     0.0405     0.0394
+Apricot_Tart               0.056     0.0789     0.0395      0.027     0.0619
+Berry_Tart                 0.095     0.0526     0.1073     0.1081     0.0928
+Blackberry_Tart            0.073          0     0.0339      0.027     0.0914
+Blueberry_Tart             0.081          0     0.0452     0.5541      0.045
+Chocolate_Tart             0.051          0     0.0113     0.0135     0.0675
+Cherry_Tart                0.084     0.0263     0.0565      0.027     0.0999
+Lemon_Tart                 0.076          0     0.0339     0.0676     0.0914
+Pecan_Tart                  0.04     0.0263     0.0395     0.0811     0.0366
+Ganache_Cookie             0.044     0.1053     0.0282     0.0135     0.0478
+Gongolais_Cookie           0.108     0.0263     0.5763      0.027     0.0042
+Raspberry_Cookie           0.082     0.9211     0.0395     0.0541     0.0506
+Lemon_Cookie               0.066     0.9474     0.0282     0.0135     0.0338
+Chocolate_Meringue         0.038     0.0263     0.0339     0.0405     0.0394
+Vanilla_Meringue           0.047          0     0.0565      0.027     0.0492
+Marzipan_Cookie             0.09          0     0.0395     0.0676     0.1097
+Tuile_Cookie               0.102          0     0.0395     0.0541      0.128
+Walnut_Cookie              0.061          0     0.0282      0.027     0.0759
+Almond_Croissant           0.049     0.0263     0.0508     0.0405     0.0506
+Apple_Croissant            0.091          0     0.3051      0.027     0.0492
+Apricot_Croissant          0.076          0     0.0169     0.9865          0
+Cheese_Croissant           0.078     0.0526     0.0621      0.027     0.0886
+Chocolate_Croissant        0.042     0.0263     0.0282     0.0541      0.045
+Apricot_Danish             0.075          0     0.0452     0.0405       0.09
+Apple_Danish               0.084          0     0.2429     0.0541      0.052
+Almond_Twist               0.065          0     0.0452          0     0.0802
+Almond_BearClaw            0.026          0     0.0282     0.0135     0.0281
+Blueberry_Danish           0.055     0.0526     0.0395     0.0135     0.0633
+Lemon_Lemonade             0.066     0.8421     0.0226          0     0.0422
+Raspberry_Lemonade         0.072     0.7895     0.0339     0.0405     0.0464
+Orange_Juice               0.082     0.0789     0.0678     0.0541     0.0886
+GreenTea                   0.062        0.5     0.0395          0     0.0506
+BottledWater               0.077     0.0263     0.0508     0.0541     0.0886
+Hot_Coffee                 0.094     0.0263          0     0.4459     0.0844
+Chocolate_Coffee           0.085     0.0263     0.0678      0.027     0.0985
+Vanilla_Frappuccino        0.074     0.0263     0.0452     0.0405     0.0872
+Cherry_Soda                0.077          0     0.2373     0.0541     0.0436
+Single_Espresso            0.059          0     0.0226     0.0405     0.0731
+Weekend                    0.315     0.2632     0.2599     0.2568     0.3376
+
+
+
+
+Time taken to build model (full training data) : 0.18 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       38 (  4%)
+1      177 ( 18%)
+2       74 (  7%)
+3      711 ( 71%)
+

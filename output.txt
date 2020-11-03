@@ -1,0 +1,19 @@
+     [,1]
+[1,]    1
+          [,1]
+[1,] 0.4219451
+        [,1]
+[1,] 0.96094
+          [,1]
+[1,] 0.7407785
+          [,1]
+[1,] 0.7167132
+          [,1]
+[1,] 0.9078413
+Document 1 belongs to cluster three with a probability of 0.9078413          [,1]
+[1,] 0.4717282
+          [,1]
+[1,] 0.3843289
+          [,1]
+[1,] 0.2886751
+Document 3 belongs to cluster one with a probability of 0.4717282Final Document ClustersCluster 1: Document2 and Document3Cluster 2: Document4 and Document6Cluster 3: Document1, Document5 and Document7
